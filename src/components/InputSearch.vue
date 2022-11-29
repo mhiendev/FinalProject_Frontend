@@ -20,7 +20,7 @@ export default {
         <input
             type="text"
             class="form-control"
-            placeholder="Nhập thông tin cần tìm"
+            placeholder="Nhập thông tin tìm kiếm"
             :value="modelValue"
             @input="updateModelValue"
             @keyup.enter="submit"

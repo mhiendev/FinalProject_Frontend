@@ -10,6 +10,7 @@ module.exports = {
   },
   rules: {
     'vue/no-reserved-component-names': 'off',
-    "vue/comment-directive": 0
+    "vue/comment-directive": 0,
+    "vue/no-parsing-error": 0
   },
 };

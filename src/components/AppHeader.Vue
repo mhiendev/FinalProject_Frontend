@@ -10,8 +10,8 @@
                     :to="{ name: 'stationeryshop'}"
                     class="nav-link"
                 >
-                    Danh bạ
-                    <i class="fas fa-address-book" />
+                    Đơn hàng
+                    <i class="fas fa-thin fa-cart-shopping" />
                 </router-link>
             </li>
         </div>

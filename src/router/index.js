@@ -6,6 +6,26 @@ const routes = [
         name: 'stationeryshop',
         component: StationeryShop,
     },
+
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'notfound',
+        component: () => import('@/views/NotFound.vue'),
+    },
+
+    {
+        path: '/product',
+        name: 'product.add',
+        component: () => import('@/views/StationeryAdd.vue'),
+        
+    },
+
+    {
+        path: '/products/:id',
+        name: 'product.edit',
+        component: () => import('@/views/ProductEdit.vue'),
+        props: (route) => ({ productId: parseInt(route.params.id) })
+    },
 ];
 
 const router = createRouter({

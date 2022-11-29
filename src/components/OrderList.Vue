@@ -12,6 +12,8 @@ export default {
     },
 };
 </script>
+
+<template>
     <ul class="list-group">
         <li
             class="list-group-item"
@@ -20,7 +22,7 @@ export default {
             :class="{ active: index === activeIndex }"
             @click="updateActiveIndex(index)"
         >
-            {{ order.cus_id }}
+            {{ order.fullname }}
         </li>
     </ul>
 </template>
