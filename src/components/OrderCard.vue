@@ -33,7 +33,7 @@ export default {
         </div>
         <div class="p-1">
             <strong>Ngày thanh toán:</strong>
-            {{ moment(order.purchased_day).format('MM/DD/YYYY hh:mm') }}
+            {{ moment(order.purchased_day).format('DD/MM/YYYY hh:mm') }}
         </div>
         <div class="p-1">
             <strong>Thành viên VIP:&nbsp;</strong>
